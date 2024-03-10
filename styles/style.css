@@ -1,5 +1,161 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  background: white fixed no-repeat center / cover;
+  max-width: 375px;
+  margin: 0 auto;
+ 
+  /*background:white;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.header {
+    position: relative;
+    background-color: var(--background-color);
+    width: 100%;
+    display: grid;
+    align-items: center;
+    font-size: var(--font-size);
+    block-size: 82vh;
+    grid-template-rows: 1fr min-content 1fr;
+    padding: 1vw;
+    align-content: center;
+    justify-items: end;
+}
+
+.header__wrapper1 {
+    position: absolute;
+    border-top: 1px solid #FF0070;
+    border-right: 1px solid #FF0070;
+    width: 25px;
+    height: 25px;
+    left: 340px;
+    top: 10px;
+}
+
+/*.decorated-zone {
+    padding-top: 9vh;
+}
+
+/*.decorated-zone::before, .decorated-zone::after {
+  content: "";
+  position: relative;
+  inline-size: 25px;
+  block-size: 25px;
+  transform: rotate(90deg);
+}
+
+/*.decorated-zone::before {
+  border-inline-end: 1px solid var(--decoration-color);
+  border-block-end: 1px solid var(--decoration-color);
+  inset-inline-start: var(--small-gap);
+  inset-inline-end: var(--small-gap);
+}*/
+
+/*.decorated-zone::after {
+  border-inline-end: 1px solid var(--decoration-color);
+  border-block-end: 1px solid var(--decoration-color);
+  inset-inline-start: var(--small-gap);
+  inset-inline-end: var(--small-gap);
+}*/
+
+.header__lamp {
+position: absolute;
+    color: var(--accent-color);
+    font-family: var(--general-font-family);
+    font-size: var(--font-size);
+    line-height: 11px;
+    text-transform: uppercase;
+    inset-inline-end: 27px;
+    inset-block-start: var(--small-gap);
+}
+
+.header__lamp::after {
+  content: "";
+  position: absolute;
+  inline-size: 9px;
+  block-size: 9px;
+  margin: -5px -19px;
+  border-radius: 100%;
+  background-color: var(--decoration-color);
+  box-shadow: 0 0 4px 3px var(--nav-color);
+  inset-inline-end: 0;
+  inset-block-start: 50%;
+}
+
+.header__theme-menu {
+  /*padding-block-start: 7px;*/
+  padding-inline-end: var(--small-gap);
+  margin-bottom: 9px;
+}
+
+.header__theme-menu-list {
+list-style: none;
+}
+
+.header__theme-menu-button {
+  background-color: transparent; /*прозрачность*/
+    appearance: none;
+    cursor: pointer;
+    padding: 2px 13px 4px;
+    color: var(--nav-color);
+    line-height: 100%;
+    text-transform: lowercase; /*сделать все буквы строчными*/
+    opacity: 1; /*отвечает за прозрачность*/
+    transition: 0.3s ease; /*отвечает за скрость включения*/
+    font-family: var(--general-font-family);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  box-shadow: 0 1px 0 var(--nav-color);
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--nav-color);
+    pointer-events: none;
+    font-family: var(--general-font-family);
+    font-size: var(--font-size);
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--nav-hover-color);
+  opacity: 0.4;
+}
+
+.header__title {
+  justify-self: start;
+    color: var(--header-title-color);
+    font-size: var(--header-title-font-size);
+    line-height: 97.5px;
+    text-shadow: var(--header-text-shadow);
+    padding-inline-start: var(--small-gap);
+    font-family: var(--general-font-family);
+    padding: 0vw;
+}
+
+.header__description {
+    font-weight: normal;
+    margin-inline-end: var(--small-gap);
+    max-inline-size: 355px;
+    font-family: var(--general-font-family);
+}
+
+.title-decor {
+  color: var(--main-heading-color);
+  background-color: var(--accent-color);
+}
+
+.header__wrapper2 {
+  position: absolute;
+  border-bottom: 1px solid #FF0070;
+  border-left: 1px solid #FF0070;
+  width: 25px;
+  height: 25px;
+  left: 10px;
+  top: 632px;
+}
+/*на сегодня все*/

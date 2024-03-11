@@ -21,7 +21,8 @@
 
   --nav-gap: 10px;
   --small-gap: 5px;
-  --medium-gap: 20px;
+  --medium-gap: 19px;
+  --small-content-gap: 50px;
   --medium-content-gap: 80px;
   --font-size: 18px;
   --text-line-height: 130%;

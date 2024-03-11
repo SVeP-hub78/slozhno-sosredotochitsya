@@ -1,7 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background: white fixed no-repeat center / cover;
+  background: url(../images/cover-image.png) var(--background-color) no-repeat center / cover;
+  background-attachment: fixed;
   max-width: 375px;
   margin: 0 auto;
  
@@ -24,6 +25,7 @@
 }
 
 .header__wrapper1 {
+  content: "";
     position: absolute;
     border-top: 1px solid #FF0070;
     border-right: 1px solid #FF0070;
@@ -86,7 +88,7 @@ position: absolute;
 .header__theme-menu {
   /*padding-block-start: 7px;*/
   padding-inline-end: var(--small-gap);
-  margin-bottom: 9px;
+  margin-block-end: 9px;
 }
 
 .header__theme-menu-list {
@@ -157,5 +159,57 @@ list-style: none;
   height: 25px;
   left: 10px;
   top: 632px;
+}
+
+.sections {
+  padding: 40px 10px;
+  background-color: var(--main-heading-color);
+    font-size: var(--font-size);
+}
+
+.content-gap {
+  margin-block-end: var(--small-content-gap);
+}
+
+.section__title {
+  color: var(--section-heading-color);
+    font-size: inherit;
+    font-family: var(--general-font-family);
+}
+
+.link {
+text-decoration: none;
+text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--text-color);
+}
+
+.section__text .section__text-content:first-of-type {
+  margin: 0;
+}
+
+.section__text-content-item {
+  color: var(--text-color);
+    line-height: var(--text-line-height);
+
+}
+
+.section__text-content-item-title {
+    font-size: var(--font-size);
+    line-height: var(--text-line-height);
+    margin-block-start: var(--medium-gap);
+    margin-block-end: 12px;
+    font-family: var(--general-font-family);
+}
+
+.section__text-content-paragraph {
+  font-size: var(--font-size);
+    font-family: var(--general-font-family);
 }
 /*на сегодня все*/

@@ -408,6 +408,7 @@
 
 .section__text-content-paragraph {
   font-size: var(--font-size);
+  padding-block-start: var(--small-gap);
 }
 
 .section__text-heading {
@@ -415,10 +416,6 @@
   font-weight: normal;
   font-size: var(--font-size);
   line-height: var(--text-line-height);
-}
-
-.section__text-content-paragraph {
-  padding-block-start: var(--small-gap);
 }
 
 .cards__images {

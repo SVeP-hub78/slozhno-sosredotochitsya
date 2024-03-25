@@ -5,6 +5,7 @@
   color: var(--text-color);
   font-size: var(--font-size);
   background-image: var(--cover-image);
+  background-color: var(--background-color);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -26,7 +27,6 @@
 
 .header {
   position: relative;
-  background-color: var(--background-color);
   width: 100%;
   display: grid;
   align-items: center;
@@ -49,19 +49,9 @@
   }
 }
 
-@media (width >= 768px) {
-  .header {
-    min-block-size: 1024px;
-    block-size: 100vh;
-    /*block-size: 126vh;*/
-  }
-}
-
 @media (width >= 1024px) {
   .header {
     min-block-size: 768px;
-    block-size: 100vh;
-    /*block-size: 94.5vh;*/
   }
 }
 
@@ -461,6 +451,8 @@
 
 .cards__images-item {
   inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (width >= 768px) {
@@ -545,7 +537,6 @@
   align-items: center;
   min-block-size: 668px;
   block-size: 100vh;
-  /*block-size: 82vh;*/
   padding: var(--small-gap);
   align-content: center;
   letter-spacing: -2px;
@@ -554,20 +545,9 @@
 
 @media (width >= 768px) {
   .footer {
-    min-block-size: 1024px;
-    block-size: 100vh;
-    /*block-size: 126vh;*/
     padding: var(--medium-gap);
     letter-spacing: 0px;
     justify-content: center;
-  }
-}
-
-@media (width >= 1024px) {
-  .footer {
-    min-block-size: 768px;
-    block-size: 100vh;
-    /*block-size: 94.5vh;*/
   }
 }
 

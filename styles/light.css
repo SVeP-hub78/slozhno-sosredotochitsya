@@ -3,7 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #fff1f7;
@@ -45,3 +44,5 @@
 .theme_light .header__lamp {
     display: none;
   }
+ 
+

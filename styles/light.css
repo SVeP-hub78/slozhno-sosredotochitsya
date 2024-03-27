@@ -18,7 +18,7 @@
     --footer-title-color: #ffc2e6;
   }
 
-  .theme_light .header__lamp {
+  .theme_auto .header__lamp {
     display: none;
   }
 }

@@ -11,19 +11,18 @@
     --accent-color: #ff8dcb;
     --section-heading-color: #353430;
     --nav-color: #353430;
-    --nav-hover-color: rgb(53, 52, 48, 1);
+    --nav-hover-color: rgb(255, 0, 112, 0.4);
     --text-color: #353430;
     --main-heading-color: #353430;
     --header-title-color: #ffc2e6;
     --footer-title-color: #ffc2e6;
   }
-
-  .theme_auto .header__lamp {
+.header__lamp {
     display: none;
   }
 }
 
-.page.theme_light {
+:root.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -34,15 +33,11 @@
   --accent-color: #ff8dcb;
   --section-heading-color: #353430;
   --nav-color: #353430;
-  --nav-hover-color: rgb(53, 52, 48, 1);
+  --nav-hover-color: rgb(255, 0, 112, 0.4);
   --text-color: #353430;
   --main-heading-color: #353430;
   --header-title-color: #ffc2e6;
   --footer-title-color: #ffc2e6;
 }
-
-.theme_light .header__lamp {
-    display: none;
-  }
  
 

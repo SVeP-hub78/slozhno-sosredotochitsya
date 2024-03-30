@@ -171,21 +171,22 @@
   box-shadow: 0 1px 0 var(--nav-color);
 }
 
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--nav-hover-color);
+  color: var(--nav-hover-color)
+}
+
 .header__theme-menu-button_active {
   outline: 1px solid var(--nav-color);
   pointer-events: none;
   font-size: var(--font-size);
 }
 
-.header__theme-menu-button:hover {
-  outline: 1px solid var(--nav-hover-color);
-}
-
 .header__title {
   justify-self: start;
   color: var(--header-title-color);
   font-size: var(--header-title-font-size);
-  line-height: 97.5px;
+  line-height: 95.7px;
   text-shadow: var(--header-text-shadow);
   margin-inline-end: 11px;
 }
@@ -194,31 +195,28 @@
   .header__title {
     margin-inline-start: -20px;
     letter-spacing: 0px;
+    line-height: 99px;
   }
 }
 
 @media (width >= 1024px) {
   .header__title {
     font-size: var(--header-title-big-font-size);
+    line-height: 129.53px;
   }
 }
 
 .header__description {
-  font-weight: normal;
   white-space: pre-line;
   display: grid;
   width: 100%;
+  line-height: var(--text-line-height);
+  font-weight: 700;
 }
 
 @media (width >= 768px) {
   .header__description {
     width: 50%;
-  }
-}
-
-@media (width >= 1024px) {
-  .header__description {
-    margin-block-end: -14px;
   }
 }
 
@@ -234,6 +232,7 @@
 
 @media (width >= 768px) {
   .sections {
+    width: 100%;
     padding: 60px 20px;
   }
 }
@@ -246,13 +245,17 @@
   .why__section {
     margin-block-start: -20px;
     display: grid;
-    grid-template-columns: 256px auto;
+    /*grid-template-columns: 256px auto;*/
+    gap: 20px;
+    grid-template-columns: 1fr 65%;
   }
 }
 
 @media (width >= 1024px) {
   .why__section {
-    grid-template-columns: 334px auto;
+    /*grid-template-columns: 334px auto;*/
+    grid-template-columns: 1fr 66%;
+    gap: 20px;
   }
 }
 
@@ -263,7 +266,7 @@
 
 @media (width >= 768px) {
   .section__title {
-    padding-inline-end: 25px;
+    /*padding-inline-end: 25px;*/
     margin-block-start: 21px;
   }
 }
@@ -299,7 +302,8 @@
 @media (width >= 768px) {
   .how__section {
     display: grid;
-    grid-template-columns: 256px auto;
+    /*grid-template-columns: 256px auto;*/
+    grid-template-columns: 1fr 65%;
     padding-block-start: 10px;
     padding-block-end: 29px;
   }
@@ -307,7 +311,8 @@
 
 @media (width >= 1024px) {
   .how__section {
-    grid-template-columns: 334px auto;
+    grid-template-columns: 1fr 65%;
+    /*grid-template-columns: 334px auto;*/
   }
 }
 
@@ -356,6 +361,7 @@
 }
 
 .cards__images {
+  width: 100%;
   display: grid;
   gap: var(--small-gap);
 }

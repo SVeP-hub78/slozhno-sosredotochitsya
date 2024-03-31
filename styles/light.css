@@ -3,24 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-.page.theme_light {
-  --background-color: #fff1f7;
-  --cover-image: url(../images/cover-image-light.png);
-  --decoration-color: #353430;
-  --accent-color: #ff8dcb;
-  --section-heading-color: #353430;
-  --nav-color: #353430;
-  --nav-hover-color: rgba(50, 49, 45, 0.4);
-  --text-color: #353430;
-  --main-heading-color: #353430;
-  --header-title-color: #ffc2e6;
-  --footer-title-color: #ffc2e6;
-}
-
-.header__lamp {
-  display: block;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #fff1f7;
@@ -41,5 +23,22 @@
   }
 }
 
+.page.theme_light {
+  --background-color: #fff1f7;
+  --cover-image: url(../images/cover-image-light.png);
+  --decoration-color: #353430;
+  --accent-color: #ff8dcb;
+  --section-heading-color: #353430;
+  --nav-color: #353430;
+  --nav-hover-color: rgba(50, 49, 45, 0.4);
+  --text-color: #353430;
+  --main-heading-color: #353430;
+  --header-title-color: #ffc2e6;
+  --footer-title-color: #ffc2e6;
+}
+
+/*.header__lamp {
+  display: block;
+}*/
 
 

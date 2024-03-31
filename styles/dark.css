@@ -5,7 +5,7 @@
 */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #000028;
+   --background-color: #000028;
     --cover-image: url(../images/cover-image-dark.png);
     --accent-color: #ff0070;
     --section-heading-color: #ff0070;
@@ -13,20 +13,21 @@
     --text-color: #f1b2ce;
     --main-heading-color: #000028;
     --decoration-color: #ff0070;
-    --nav-hover-color: rgba(50, 49, 45, 0.4);
+    --nav-hover-color: rgb(255, 0, 112, 0.4);
     --header-title-color: #db00ff;
     --footer-title-color: #db00ff;
   }
-  .header__lamp {
-    display:block
-}
+  
+  .theme_dark.header__lamp {
+    display: block;
+  }
 }
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  :root.theme_dark {
+  /*.page.theme_dark {
   --background-color: #000028;
   --cover-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
@@ -35,7 +36,7 @@
   --text-color: #f1b2ce;
   --main-heading-color: #000028;
   --decoration-color: #ff0070;
-  --nav-hover-color: rgba(50, 49, 45, 0.4);
+  --nav-hover-color: rgb(255, 0, 112, 0.4);
   --header-title-color: #db00ff;
   --footer-title-color: #db00ff;
 }

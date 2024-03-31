@@ -10,10 +10,10 @@
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
-  max-width: 375px;
+  max-width: 1024px;
 }
 
-@media (width >= 768px) {
+/*@media (width >= 768px) {
   .page {
     max-width: 768px;
   }
@@ -23,7 +23,7 @@
   .page {
     max-width: 1024px;
   }
-}
+}*/
 
 .header {
   position: relative;
@@ -97,6 +97,7 @@
   text-transform: uppercase;
   inset-inline-end: 38px;
   inset-block-start: 10px;
+  display: block;
 }
 
 @media (width >= 768px) {
@@ -311,7 +312,7 @@
 
 @media (width >= 1024px) {
   .how__section {
-    grid-template-columns: 1fr 65%;
+    grid-template-columns: 1fr 66%;
     /*grid-template-columns: 334px auto;*/
   }
 }

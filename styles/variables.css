@@ -4,18 +4,20 @@
 */
 :root {
   --background-color: #000028;
-  --cover-image: url(../images/cover-image.png);
+  --cover-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
+  --section-heading-color: #ff0070;
   --nav-color: #ff0070;
   --text-color: #f1b2ce;
   --main-heading-color: #000028;
-  --section-heading-color: #ff0070;
+  --decoration-color: #ff0070;
+  --nav-hover-color: rgb(255, 0, 112, 0.4);
   --header-title-color: #db00ff;
   --footer-title-color: #db00ff;
-  --nav-hover-color: rgba(255, 0, 112, 0.4);
-  --decoration-color: #ff0070;
+  
   --header-text-shadow: 4px 4px 0 var(--accent-color);
   --footer-text-shadow: 2px 2px 0 var(--accent-color);
+
   /*size*/
   --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --footer-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -32,3 +34,4 @@
   /*fonts*/
   --general-font-family: "IBM Plex mono", sans-serif;
 }
+

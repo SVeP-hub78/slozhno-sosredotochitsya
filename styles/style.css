@@ -13,18 +13,6 @@
   max-width: 1024px;
 }
 
-/*@media (width >= 768px) {
-  .page {
-    max-width: 768px;
-  }
-}
-
-@media (width >= 1024px) {
-  .page {
-    max-width: 1024px;
-  }
-}*/
-
 .header {
   position: relative;
   width: 100%;
@@ -97,7 +85,6 @@
   text-transform: uppercase;
   inset-inline-end: 38px;
   inset-block-start: 10px;
-  display: block;
 }
 
 @media (width >= 768px) {

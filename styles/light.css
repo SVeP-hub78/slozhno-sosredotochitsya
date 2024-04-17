@@ -18,8 +18,10 @@
     --footer-title-color: #ffc2e6;
   }
   
+  /*.theme_light */
   .header__lamp {
-    display: none;
+    /*display: none;*/
+    visibility: hidden;
   }
 }
 
@@ -37,8 +39,9 @@
   --footer-title-color: #ffc2e6;
 }
 
-/*.header__lamp {
-  display: block;
-}*/
+.theme_light .header__lamp {
+  /*display: none;*/
+  visibility: hidden;
+}
 
 

@@ -161,7 +161,7 @@
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--nav-hover-color);
-  color: var(--nav-hover-color)
+  /*color: var(--nav-hover-color)*/
 }
 
 .header__theme-menu-button_active {
@@ -243,7 +243,7 @@
   .why__section {
     /*grid-template-columns: 334px auto;*/
     grid-template-columns: 1fr 66%;
-    gap: 20px;
+    /*gap: 20px;*/
   }
 }
 
@@ -422,7 +422,7 @@
   min-block-size: 668px;
   block-size: 100vh;
   padding: var(--small-gap);
-  align-content: center;
+  place-items: center;
   letter-spacing: -2px;
 }
 
@@ -430,7 +430,6 @@
   .footer {
     padding: var(--medium-gap);
     letter-spacing: 0px;
-    justify-content: center;
   }
 }
 

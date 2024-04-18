@@ -32,6 +32,6 @@
   --font-size: 18px;
   --text-line-height: 130%;
   /*fonts*/
-  --general-font-family: "IBM Plex mono", sans-serif;
+  --general-font-family: "IBM Plex mono", monospace;
 }
 

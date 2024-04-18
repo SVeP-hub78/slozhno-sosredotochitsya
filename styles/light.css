@@ -18,9 +18,7 @@
     --footer-title-color: #ffc2e6;
   }
   
-  /*.theme_light */
-  .header__lamp {
-    /*display: none;*/
+  .header__lamp  {
     visibility: hidden;
   }
 }
@@ -40,7 +38,6 @@
 }
 
 .theme_light .header__lamp {
-  /*display: none;*/
   visibility: hidden;
 }
 

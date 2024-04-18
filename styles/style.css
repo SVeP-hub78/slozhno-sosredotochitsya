@@ -418,10 +418,10 @@
 .footer {
   position: relative;
   display: grid;
+  place-items: center;
   min-block-size: 668px;
   block-size: 100vh;
   padding: var(--small-gap);
-  place-items: center;
   letter-spacing: -2px;
 }
 

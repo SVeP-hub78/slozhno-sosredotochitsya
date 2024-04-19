@@ -5,8 +5,9 @@
 :root {
   --background-color: #000028;
   --cover-image: url(../images/cover-image-dark.png);
-  --accent-color: #ff0070;
+  /*--accent-color: #ff0070;*/
   --section-heading-color: #ff0070;
+  --accent-color: #ff0070;
   --nav-color: #ff0070;
   --text-color: #f1b2ce;
   --main-heading-color: #000028;

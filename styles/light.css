@@ -35,10 +35,17 @@
   --main-heading-color: #353430;
   --header-title-color: #ffc2e6;
   --footer-title-color: #ffc2e6;
+  --header-text-shadow: 4px 4px 0 var(--accent-color);
+  --footer-text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .theme_light .header__lamp {
   visibility: hidden;
 }
 
-
+@media (width >= 1024px) {
+  .header__title {
+    --header-text-shadow: 4px 4px 0 #ff0070;
+    --footer-text-shadow: 2px 2px 0 #ff0070;
+  }
+}

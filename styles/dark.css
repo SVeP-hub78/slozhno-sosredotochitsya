@@ -40,6 +40,8 @@
   --nav-hover-color: rgb(255, 0, 112, 0.4);
   --header-title-color: #db00ff;
   --footer-title-color: #db00ff;
+  --header-text-shadow: 4px 4px 0 var(--accent-color);
+  --footer-text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .theme_dark .header__lamp {
